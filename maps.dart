@@ -1,6 +1,8 @@
-void main () {
-  Map user <Double, String> {
-    "name": "John",
-    "age": "25"
-  };
-}
+// void main() {
+//   Map(double, String) {
+//     name:
+//     'John';
+//     age:
+//     30;
+//   }
+// }
