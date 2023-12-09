@@ -27,11 +27,29 @@ void main() {
   dynamic keyword is used when we want a mutable variable instead.
   */
 
-  var programLanguage = 'Dart'; //
-  dynamic mood = 'Happy 😄'; //
+  var programLanguage = 'Dart'; // cannot be re-assigned
+  dynamic mood = 'Happy 😄'; // can be re-assigned
 
   // the runtime type method is used to identify the type of the variable declared using the var keyword.
   print(programLanguage.runtimeType);
   print(
       'my favorite programming language is $programLanguage ❤️‍🔥, and I am $mood right now.');
+
+  /*
+  Final and Const keywords when used, they explicitly prevent any declared variable value of being modified anyhow.
+  USE-CASE: for example when declaring a List variable with final, the name of that variable cannot be changed but as a common
+  behavior of a List value can still be changed,So prevent this both final and const are used.
+  */
+
+  final String wife = 'does not exist 😆';
+  print('A good wife $wife');
+
+  // Declaring a list
+  final List<String> STUDENTS = const [
+    'John',
+    'Peter',
+    'Paul'
+  ]; // in this example both the list and it's value are final and constant.
+
+  print(STUDENTS);
 }
