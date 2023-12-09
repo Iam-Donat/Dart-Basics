@@ -33,5 +33,5 @@ void main() {
   // the runtime type method is used to identify the type of the variable declared using the var keyword.
   print(programLanguage.runtimeType);
   print(
-      'my favorite programming language is $programLanguage, and I am $mood right now');
+      'my favorite programming language is $programLanguage ❤️‍🔥, and I am $mood right now.');
 }
