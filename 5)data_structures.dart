@@ -32,9 +32,9 @@ void main() {
   print(user.values); //get all values in the Map
 
   //Set are the same Map or Lists but the cannot contain duplicate value
-  Set<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 9};
+  // Set<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 9};
 
-  print(numbers); //⚠️ if a duplicate value exist, it will be not printed
+  // print(numbers); //⚠️ if a duplicate value exist, it will be not printed
 
   // Set.of() can be used to eliminate duplicate values in a List
   final removeDuplicatesInList = Set.of(data);

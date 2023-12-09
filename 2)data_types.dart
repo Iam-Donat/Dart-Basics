@@ -52,4 +52,13 @@ void main() {
   ]; // in this example both the list and it's value are final and constant.
 
   print(STUDENTS);
+
+  /*
+    Null Safety in Dart...
+    in Dart, a variable can't be null or empty.
+    to declare a nullable variable ? is used after the data type initialization.
+  */
+  int? x;
+
+  print(x);
 }
