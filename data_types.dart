@@ -1,5 +1,5 @@
 /*
-  Section 1: In this section i've learned about Datatype in Dart Programming Language.
+  Section 1️⃣: In this section i've learned about Datatype in Dart Programming Language.
 */
 
 void main() {
@@ -23,9 +23,15 @@ void main() {
   /*
   🚧 sometime we may declare a variable without specifying the data type explicitly.
   In this case the *var* keyword is used. Dart is capable of determining the type of the variable.
-    */
+  variable assigned with var keyword are immutable which means they can be re-assigned.
+  dynamic keyword is used when we want a mutable variable instead.
+  */
 
-  var programLanguage = 'Dart';
+  var programLanguage = 'Dart'; //
+  dynamic mood = 'Happy 😄'; //
+
   // the runtime type method is used to identify the type of the variable declared using the var keyword.
   print(programLanguage.runtimeType);
+  print(
+      'my favorite programming language is $programLanguage, and I am $mood right now');
 }
