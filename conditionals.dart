@@ -26,7 +26,7 @@ void main() {
 
   /*
     As in the above example many if else statements can be a little bit messy,
-    So this is where the Switch statement comes to the rescue 🌝
+    So this is where the Switch Statement comes to the rescue 🌝
   */
   switch (temp) {
     case < 10:
@@ -46,7 +46,7 @@ void main() {
       break;
   }
 
-  // From Dart 3.3 we have also Switch Statement
+  // From Dart 3.3 we have also Switch Expression which is more concise
   final status = switch (temp) {
     < 10 => 'Very Cold',
     >= 10 && <= 18 => 'Cold 🌂',
